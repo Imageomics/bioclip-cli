@@ -144,7 +144,7 @@ As can be seen from comparing the confusion matrices, fine-tuning an SVM classif
 This work is based on code from [biobench](https://github.com/samuelstevens/biobench). 
 
 ### Fine-tune with RidgeClassifier
-[FineTuneRidgeClassifier.ipynb](https://github.com/Imageomics/pybioclip/blob/main/examples/FineTuneRidgeClassifier.ipynb) Fine-tunes  BioCLIP by combining an [RidgeClassifier](https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.RidgeClassifier.html) with BioCLIP image embeddings. <a target="_blank" href="https://colab.research.google.com/github/Imageomics/pybioclip/blob/main/examples/FineTuneRidgeClassifier.ipynb">
+Fine-tunes BioCLIP by combining a [RidgeClassifier](https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.RidgeClassifier.html) with BioCLIP image embeddings. <a target="_blank" href="https://colab.research.google.com/github/Imageomics/pybioclip/blob/main/examples/FineTuneRidgeClassifier.ipynb">
   <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
 As can be seen from comparing the confusion matrices, fine-tuning a RidgeClassifier classifier on BioCLIP image embeddings may yield better results than using BioCLIP in "zero-shot mode", i.e., predicting on a list of custom labels.
 
