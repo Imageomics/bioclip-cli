@@ -148,7 +148,7 @@ fine-tunes BioCLIP by combining a [RidgeClassifier](https://scikit-learn.org/sta
 
 As can be seen from comparing the confusion matrices in the notebooks, fine-tuning may yield better results than using BioCLIP in "zero-shot mode", i.e., predicting on a list of custom labels.
 
-This is work is based on code from [biobench](https://github.com/samuelstevens/biobench).
+This work is based on code from [biobench](https://github.com/samuelstevens/biobench).
 
 ## PIL Images
 The predict() functions used in all the examples above allow passing a list of paths or a list of [PIL Images](https://pillow.readthedocs.io/en/stable/reference/Image.html).
