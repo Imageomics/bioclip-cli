@@ -143,6 +143,10 @@ As can be seen from comparing the confusion matrices, fine-tuning an SVM classif
 
 This work is based on code from [biobench](https://github.com/samuelstevens/biobench). 
 
+- [FineTuneSimpleShot.ipynb](https://github.com/Imageomics/pybioclip/blob/main/examples/FineTuneSimpleShot.ipynb)
+fine-tunes BioCLIP by combining a [SimpleShot](https://arxiv.org/abs/1911.04623) classifier with BioCLIP image embeddings. <a target="_blank" href="https://colab.research.google.com/github/Imageomics/pybioclip/blob/main/examples/FineTuneSimpleShot.ipynb">
+  <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
+
 ## PIL Images
 The predict() functions used in all the examples above allow passing a list of paths or a list of [PIL Images](https://pillow.readthedocs.io/en/stable/reference/Image.html).
 When a list of PIL images is passed the index of the image will be filled in for `file_name`. This is because PIL images may not have an associated file name.
